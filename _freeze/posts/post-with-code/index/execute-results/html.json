@@ -1,0 +1,14 @@
+{
+  "hash": "f8c79ea1969b484fc475b9048f4b5229",
+  "result": {
+    "markdown": "---\ntitle: \"Post With Code\"\nsubtitle: \"Inspired by Tufte Handout, Using Quarto\"\ndate: \"2023-11-04\"\ncategories: [news, code, analysis]\n---\n\n\nThis is a post with executable code.\n\n# About\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 2\n```\n:::\n:::\n\n\n# Code execution\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1 == 2\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] TRUE\n```\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

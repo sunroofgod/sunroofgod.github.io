@@ -1,0 +1,50 @@
+project:
+  type: website
+
+website:
+  navbar:
+    pinned: false
+    left:
+      - text: "Home"
+        file: index.qmd
+      - text: "Blog"
+        file: blog.qmd
+      # - text: "Projects"
+      #   file: blog.qmd
+    right:
+      - icon: envelope-fill
+        href: mailto:kahseng@u.nus.edu
+      - icon: linkedin
+        href: https://www.linkedin.com/in/liankahseng/
+      - icon: github
+        menu:
+          - text: Source Code
+            url: https://github.com/sunroofgod/sunroofgod.github.io
+          - text: My Github
+            url: https://github.com/sunroofgod
+    background: light
+  page-footer:
+    center:
+      - text: "This was built with Quarto. Try it out maybe."
+    right:
+      - icon: github
+        href: https://github.com/sunroofgod
+        aria-label: Kah Seng's GitHub
+      - icon: linkedin
+        href: https://www.linkedin.com/in/liankahseng/
+        aria-label: Kah Seng's GitHub
+format:
+  html:
+    toc: true
+    toc-location: left
+    code-copy: true
+    code-overflow: wrap
+    theme:
+      light: cosmo
+    css: assets/styles.css
+    grid:
+      sidebar-width: 200px
+      body-width: 900px
+      margin-width: 300px
+
+editor: visual

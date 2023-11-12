@@ -1,0 +1,30 @@
+---
+format:
+    html: 
+      toc: false
+      code-copy: false
+      code-annotations: below
+reference-location: margin
+citation-location: margin
+listing:
+  id: blog-posts
+  contents: posts
+  sort: "date desc"
+  type: table 
+  categories: unnumbered
+  fields: [date, title]
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+---
+
+```{.txt}
+Welcome to my <Blog/> !
+```
+
+I write here occasionally to keep track of some important *(and some less important)* findings either API or Software Architecture related. 
+
+The posts are arranged by date in a descending order.
+
+::: {#blog-posts}
+:::

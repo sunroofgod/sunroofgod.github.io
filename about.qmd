@@ -1,0 +1,24 @@
+---
+title: "Kah Seng LIAN"
+image: assets/profile.jpg
+about:
+  template: trestles
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/liankahseng/
+    - icon: github
+      text: Github
+      href: https://github.com/sunroofgod/
+---
+
+Penultimate undergraduate pursuing B.Sc in Data Science & Analytics (Minor in Computer Science and Theatre Studies) at NUS. My interests lie in Software Design & Architecture, Data Science and Cats.
+
+## Education
+
+National University of Singapore | Singapore, Singapore
+B.Sc in Data Science & Analytics | August 2019 - Present
+
+## Experience
+
+Duke-NUS | Software Engineer | May 2023 - present

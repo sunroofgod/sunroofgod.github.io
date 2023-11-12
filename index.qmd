@@ -1,0 +1,36 @@
+---
+title: "Hi! I'm Kah Seng :)"
+subtitle: "Here's a quick rundown of who I am:"
+format:
+    html: 
+      toc: false
+      code-copy: false
+      code-annotations: below
+reference-location: margin
+citation-location: margin
+---
+
+-   **Software Engineer** at Duke-NUS.
+-   Penultimate undergraduate pursuing B.Sc in **Data Science & Analytics** (Minor in **Computer Science** and Theatre Studies) at NUS.
+-   My interests lie in **Software Design & Architecture**, **Data Science** and **Cats**.
+-   **Core Maintainer** and **Developer** at [dabestr](https://github.com/ACCLAB/dabestr/tree/master).
+
+::: column-margin
+![Figure 1: My face](assets/profile.jpg)
+:::
+
+``` {.txt filename="short_resume.txt"}
+-- Languages
+* High Proficiency   : Python, R, JavaScript
+* Medium Proficiency : Java, Lua
+
+-- Frameworks/Technologies
+* React.js, Flask, Node.js, Express.js, Next.js, Django
+
+-- Work Experience
+* Duke-NUS | Software Engineer | May 2023 - present 
+```
+
+::: {.callout-note appearance="simple"}
+You may obtain a copy of my official (one-page) resume [here](https://drive.google.com/file/d/1pT7qB7XQmc-EZctvEe1NHxH9xTsFOsCo/view?usp=share_link).
+:::

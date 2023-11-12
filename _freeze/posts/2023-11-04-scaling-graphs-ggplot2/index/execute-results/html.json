@@ -1,0 +1,16 @@
+{
+  "hash": "9bb88aa02c085f04a061844774589c86",
+  "result": {
+    "markdown": "---\ntitle: \"Scaling Graphs in ggplot2\"\nsubtitle: \"how all scale_* functions work in ggplot2\"\ndate: \"2023-11-04\"\nformat:\n    html: \n      self-contained: true\n      code-annotations: below\ncategories: [code, analysis, R]\nreference-location: margin\ncitation-location: margin\n---\n\n\n## The Issue\n\nThis is an issue I faced whilst working as a developer on the dabestr rebuild sometime back. You might have also encountered this before - its the issue of \"floating bar graphs\" such as the one below.\n\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(ggplot2)\n\ng <- ggplot(mpg, aes(class)) +\n  geom_bar()\ng\n```\n\n::: {.cell-output-display}\n![](index_files/figure-html/unnamed-chunk-1-1.png){width=672}\n:::\n:::\n\n\n## The Fix\n\n\n::: {.cell}\n\n```{.r .cell-code}\ng <- ggplot(mpg, aes(class)) +\n  geom_bar() +\n  coord_cartesian(ylim = c(0, 60),  # <1> \n                  expand = FALSE)   # <1> \ng\n```\n\n::: {.cell-output-display}\n![](index_files/figure-html/unnamed-chunk-2-1.png){width=672}\n:::\n:::\n\n\n1. Note that we used `coord_cartersian` here instead of `scale_y_continuous`. More details can be found on ggplot's [official documentation](https://ggplot2.tidyverse.org/reference/coord_cartesian.html) regarding this topic. To summarise what the documentation states, `coord_cartesian` can essentially be seen as zooming in closer to the plot whilst `scale_*` functions shrinks the limits directly, thereby eliminating possible lines or dots from being drawn.",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
