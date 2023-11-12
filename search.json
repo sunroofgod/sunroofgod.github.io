@@ -1,19 +1,5 @@
 [
   {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "",
-    "section": "",
-    "text": "Welcome to my &lt;Blog/&gt; !\nI write here occasionally to keep track of some important (and some less important) findings either API or Software Architecture related.\nThe posts are arranged by date in a descending order.\n\n\n\n\n\n\nDate\n\n\nTitle\n\n\n\n\n\n\nNov 4, 2023\n\n\nScaling Graphs in ggplot2\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Hi! I’m Kah Seng :)",
-    "section": "",
-    "text": "Software Engineer at Duke-NUS.\nPenultimate undergraduate pursuing B.Sc in Data Science & Analytics (Minor in Computer Science and Theatre Studies) at NUS.\nMy interests lie in Software Design & Architecture, Data Science and Cats.\nCore Maintainer and Developer at dabestr.\n\n\n\n\n\n\nFigure 1: My face\n\n\n\n\nshort_resume.txt\n\n-- Languages\n* High Proficiency   : Python, R, JavaScript\n* Medium Proficiency : Java, Lua\n\n-- Frameworks/Technologies\n* React.js, Flask, Node.js, Express.js, Next.js, Django\n\n-- Work Experience\n* Duke-NUS | Software Engineer | May 2023 - present \n\n\n\n\n\n\n\nYou may obtain a copy of my official (one-page) resume here."
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "Kah Seng LIAN",
@@ -33,5 +19,19 @@
     "title": "Kah Seng LIAN",
     "section": "Experience",
     "text": "Experience\nDuke-NUS | Software Engineer | May 2023 - present"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Hi! I’m Kah Seng :)",
+    "section": "",
+    "text": "Software Engineer at Duke-NUS.\nPenultimate undergraduate pursuing B.Sc in Data Science & Analytics (Minor in Computer Science and Theatre Studies) at NUS.\nMy interests lie in Software Design & Architecture, Data Science and Cats.\nCore Maintainer and Developer at dabestr.\n\n\n\n\n\n\nFigure 1: My face\n\n\n\n\nshort_resume.txt\n\n-- Languages\n* High Proficiency   : Python, R, JavaScript\n* Medium Proficiency : Java, Lua\n\n-- Frameworks/Technologies\n* React.js, Flask, Node.js, Express.js, Next.js, Django\n\n-- Work Experience\n* Duke-NUS | Software Engineer | May 2023 - present \n\n\n\n\n\n\n\nYou may obtain a copy of my official (one-page) resume here."
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "",
+    "section": "",
+    "text": "Welcome to my &lt;Blog/&gt; !\nI write here occasionally to keep track of some important (and some less important) findings either API or Software Architecture related.\nThe posts are arranged by date in a descending order.\n\n\n\n\n\n\nDate\n\n\nTitle\n\n\n\n\n\n\nNov 4, 2023\n\n\nScaling Graphs in ggplot2\n\n\n\n\n\n\nNo matching items"
   }
 ]
