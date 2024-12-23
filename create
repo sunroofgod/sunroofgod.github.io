@@ -1,0 +1,24 @@
+#!/bin/bash
+
+if [ $# -eq 0 ]; then
+    echo "Usage: ./create <type>"
+    exit 1
+fi
+
+resource=$1
+
+if [[ "$resource" != "poems" && "$resource" != "blog" ]]; then
+    echo "Invalid resource given. Only [poems, blog] is allowed."
+    exit 1
+fi
+
+current_date=$(TZ=Asia/Singapore date +"%Y-%m-%dT%H-%M-%S")
+file_path="$resource/$current_date.md"
+
+hugo new "$file_path"
+
+if [ $? -eq 0 ]; then
+    echo "New $resource page created: content/$file_path"
+else
+    echo "Failed to create new $resource resource."
+fi

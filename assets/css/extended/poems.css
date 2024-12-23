@@ -1,0 +1,48 @@
+.poem {
+    /* Ensures the poem's line breaks and spaces are respected */
+    white-space: pre-wrap;
+    word-wrap: break-word;
+
+    /* Default viewing params */
+    line-height: 1.6;
+    font-family: 'Merriweather', serif; 
+}
+
+.poem.font-nunito {
+    font-family: 'Nunito', sans-serif; 
+}
+
+.poem.font-merriweather {
+    font-family: 'Merriweather', serif; 
+}
+
+body.font-nunito {
+    font-family: 'Nunito', sans-serif;
+}
+
+body.font-merriweather {
+    font-family: 'Merriweather', serif;
+}
+
+.font-picker {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+}
+
+.font-btn {
+    font-size: 20px;
+    font-weight: bold;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 1px;
+    transition: transform 0.2s ease-in-out;
+    outline: none;
+}
+
+.font-btn:hover {
+    transform: scale(1.1);
+}
+
+
