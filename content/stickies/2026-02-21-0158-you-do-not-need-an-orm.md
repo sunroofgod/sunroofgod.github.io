@@ -1,7 +1,6 @@
 +++
 title = 'You Do Not Need an Orm'
 date = 2026-02-21T01:58:40+08:00
-draft = true
 +++
 
 Was watching this [video](https://www.youtube.com/watch?v=8vrEtKc-TBU) and it got me thinking about 
