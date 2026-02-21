@@ -25,7 +25,7 @@ SLUG=$(echo "$TITLE" \
 FILENAME="${TIMESTAMP}-${SLUG}.md"
 
 # Create new Hugo post
-if [[ $TYPE_OF_POST == "blog" ]]; then
+if [[ $TYPE_OF_POST == "-b" ]] || [[ $TYPE_OF_POST == "-s" ]]; then
     hugo new "stickies/${FILENAME}"
     echo "Created stickies/${FILENAME}"
 else
