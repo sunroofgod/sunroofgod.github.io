@@ -1,6 +1,10 @@
 +++
 title = 'You Do Not Need an Orm'
 date = 2026-02-21T01:58:40+08:00
+tags = [
+    "database",
+    "sql",
+]
 +++
 
 Was watching this [video](https://www.youtube.com/watch?v=8vrEtKc-TBU) and it got me thinking about 
@@ -8,7 +12,7 @@ why was the ORM architecture created in the first place?
 
 I'd previously assumed ORMs allowed develops to more easily do queries from DB effectively, similar
 to that of the `ActiveRecordModel` in Ruby on Rails. Thinking deeper, it seems like ORMs are just
-what developers like - further abstraction (from the hell that is finetuning SQL queries).
+what developers like - further abstraction (from the hell that is fine-tuning SQL queries).
 
 > There is also the added tediousness/technical friction of having to maintain SQL queries.
 
