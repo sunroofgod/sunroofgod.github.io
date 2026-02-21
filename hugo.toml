@@ -72,3 +72,9 @@ ignoreErrors = ["error-disable-taxonomy"]
     wrapperClass = 'highlight'
     style = 'vulcan' #rose-pine-moon
 
+# Deployment on GH Pages
+# As per: https://gohugo.io/host-and-deploy/host-on-github-pages/
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
